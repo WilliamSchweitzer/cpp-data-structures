@@ -20,7 +20,13 @@
  * delete(2) would modify the list resulting in 7, x, 3, 8
  *
  * Note: More operations can be added and the exact implementation of certain functions is up to the programmer. The the element is not in the list when calling find(arg) what is returned for example?
+ *
+ * Using the common data type Array to implement a list is not wise becuase simple operations such as delete or insert become costly because whole parts of the array need to be shifted to account for the added or removed element.
+ *
+ * 
 */
+
+
 
 #include <iostream>
 using namespace std;
