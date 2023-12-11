@@ -20,4 +20,16 @@ The recusrive call is made in the third line.
 
 Non mathematical recursion example: A dictionary when you do not understand the definition of a given word, so you look up words recursviley in the definition to understand.
 
+The mod operator is expensive because n%x = n - [n/x] * x
 
+**Procedure** is known as a function that returns void.
+
+### The four basic rules of recursion
+
+1. *Base cases.* You must always have **some** base cases, which can be solved **without** recursion.
+
+2. *Making progress.* For the cases that are to be solved recursively, the recursive call must always be to a case that makes progress toward a base case.
+
+3. *Design rule.* Assume that all the recursive calls work.
+
+4. *Comnpund interest rule.* Never duplicate work by solving the same instance of a problem in separate recursive calls.
