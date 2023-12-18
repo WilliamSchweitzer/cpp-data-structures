@@ -2,19 +2,25 @@
 #define Gun_H
 
 /** 
- * A class for simulating a video game like gun with interger values stored in memory.
+ * A interface (Abstract Class) for simulating a video game like gun with interger values stored in memory.
  */
 
 class Gun
 {
 	public:
-		explicit Gun( int currentAmmo = 0, int maxAmmo = 6 );
+		explicit Gun( int loadedAmmo = 0, int maxAmmo = 6, int storedAmmo = 0);
 
-		int reload() const;
+		void reload();
 
-		void write( int x );
+		void moreAmmo( int x );
+
+		int currentStoredAmmo();
 
 	private:
+		int loadedAmmo;
+
+		int maxAmmo;
+
 		int storedAmmo;
 };
 
