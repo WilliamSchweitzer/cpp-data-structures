@@ -30,7 +30,7 @@ void Gun::moreAmmo( int x )
     storedAmmo += x;
 }
 
-int Gun::currentStoredAmmo() 
+int Gun::currentStoredAmmo() const
 {
     return storedAmmo;
 }

@@ -14,7 +14,7 @@ class Gun
 
 		void moreAmmo( int x );
 
-		int currentStoredAmmo();
+		int currentStoredAmmo() const;
 
 	private:
 		int loadedAmmo;

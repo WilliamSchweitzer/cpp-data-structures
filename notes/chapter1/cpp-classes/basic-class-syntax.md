@@ -18,3 +18,10 @@ In order to write data structures in C++, you must use object to store data that
 - Mutator: A member function taht changes the state is a mutator (because it mutates the state of the object).
 
 In the typical collection class, for instance, **isEmpty** is an *accessor*, while **makeEmpty** is a *mutator*.
+
+## Important Terminology
+- "::" is class the scope resolution operator with syntax `ClassName::member`
+
+### General Notes
+- A member function is denoted an accessor via the const at the end 
+- Default parameters are specified in the interface only. They are omitted in the implementation.
