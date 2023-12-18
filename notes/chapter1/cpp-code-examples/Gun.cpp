@@ -1,4 +1,4 @@
-#include "Gun_H.h";
+#include "Gun_H.h"
 
 // Implementation of Gun interface
 
